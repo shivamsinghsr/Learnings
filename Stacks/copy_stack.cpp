@@ -24,7 +24,7 @@ input.push(2);
 input.push(3);
 input.push(4);
 stack<int> result=copyStack(input);
-while(!result.empty()){
+while(!result.empty()){ // this is teprior method to print the stack in stl library
     int curr=result.top();
     result.pop();
     cout<<curr<<"\n";
